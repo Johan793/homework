@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:600&display=swap');
+
+/* Add a link to GOOGLE FONTS LINK at the top! THis should be the first line of your stylesheet.*/
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+  box-sizing: border-box;
+}
+
+/*Note: fix so that images will scale with their containers. We'll chat about this more when we cover responsive design*/
+header {
+  background-image: url('../images/home_header_bg.jpg');
+  background-repeat: no-repeat;
+  padding: 200px;
+  background-position: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+h2 {
+  color: white;
+  font-size: 18px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 23px;
+  color: #44545E;
+}
+
+.nav-bar {
+  overflow: hidden;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar a {
+  color: #7B98AA;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+main p {
+  font-family: 'lato', sans-serif;
+}
+
+body {
+  font-family: 'raleway', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background-color {
+  background-color: #C8F0F4;
+  padding: 50px;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+}
+
+.grid-wrap {
+  display: grid;
+  grid-template-columns: .5fr .5fr .5fr;
+  grid-column-gap: 5px;
+}
+
+footer {
+  background-color: #C8F0F4;
+  padding: 50px;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+a {
+  text-decoration: none;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+/* ----------------------------------------
+Articles
+------------------------------------------- */
+/* ----------------------------------------
+About
+------------------------------------------- */
+/* ----------------------------------------
+Gallery
+------------------------------------------- */
+/* ----------------------------------------
+Footer
+------------------------------------------- */
